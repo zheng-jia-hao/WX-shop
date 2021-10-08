@@ -1,0 +1,76 @@
+.categoryContainer .header {
+  padding: 10rpx 0;
+}
+.categoryContainer .header .search {
+  width: 92%;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  background: #eee;
+  margin: 0 auto;
+}
+.categoryContainer .contentContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-top: 1rpx solid #999;
+}
+.categoryContainer .contentContainer .leftContainer {
+  width: 20%;
+}
+.categoryContainer .contentContainer .leftContainer .navScroll {
+  height: calc(100vh - 82rpx);
+}
+.categoryContainer .contentContainer .leftContainer .navScroll .navItem {
+  position: relative;
+  font-size: 26rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.categoryContainer .contentContainer .leftContainer .navScroll .navItem.active:before {
+  position: absolute;
+  top: 10rpx;
+  content: "";
+  left: 6rpx;
+  width: 2rpx;
+  height: 60rpx;
+  background: #bb2c08;
+}
+.categoryContainer .contentContainer .rightContainer {
+  width: 80%;
+  border-left: 1rpx solid #808080;
+  box-sizing: border-box;
+}
+.categoryContainer .shopScroll {
+  height: calc(100vh - 82rpx);
+}
+.categoryContainer .shopScroll .cateImg {
+  width: 520rpx;
+  height: 190rpx;
+  margin: 10rpx auto;
+  display: block;
+}
+.categoryContainer .shopScroll .shopList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.categoryContainer .shopScroll .shopList .shopitem {
+  width: 33.33%;
+  text-align: center;
+}
+.categoryContainer .shopScroll .shopList .shopitem .shopImg {
+  height: 144rpx;
+  width: 90%;
+}
+.categoryContainer .shopScroll .shopList .shopitem .shopName {
+  font-size: 24rpx;
+}
+.test {
+  font-size: 0;
+}
+
